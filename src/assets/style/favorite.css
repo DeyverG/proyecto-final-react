@@ -1,0 +1,58 @@
+.scroll {
+    overflow-x: scroll;
+    height: 65vh;
+    width: 96vw;
+    margin-left: 2vw;
+}
+
+.contenedorFavorite {
+    display: flex;
+    text-align: center;
+}
+
+.contenedorBtn {
+    text-align: center;
+}
+
+.btnFavorite {
+    background: rgb(202, 46, 46);
+    margin: 2.5rem 0;
+}
+
+.btnFavorite:hover {
+    background: red;
+}
+
+.scrollDiv::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    /* Tamaño del scroll en vertical */
+}
+
+.scrollDiv::-webkit-scrollbar-thumb {
+    background: rgba(56, 56, 56, 0.5);
+    border-radius: 4px;
+}
+
+.scrollDiv::-webkit-scrollbar-thumb:hover {
+    background: rgba(36, 36, 36, 0.8);
+    ;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.scrollDiv::-webkit-scrollbar-thumb:active {
+    background-color: #161616;
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+
+.scrollDiv::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+
+.scrollDiv::-webkit-scrollbar-track:hover, .scrollDiv::-webkit-scrollbar-track:active {
+    background: #d4d4d4;
+}

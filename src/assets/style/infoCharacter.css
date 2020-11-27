@@ -1,0 +1,29 @@
+.contenedorInfoC{
+    text-align: center;
+    width: 60vw;
+    height: 60vh;
+    margin-left: 20vw;
+    padding-top: 10vh;
+}
+.colorIcon{
+    color: #005d22;
+    filter: drop-shadow(0px 1px 1px white);
+}
+.contenedorIconos{
+    font-size: 2rem;
+    width: 80vw;
+    margin-left: 10vw;
+    padding-top: 5vh;
+
+}
+.iconoDer{
+    float: right;
+}
+.iconoIzq{
+    margin-left: 1.5rem;
+}
+
+.btnGuardar{
+    margin-left: 1.5rem;
+    background: #1B4332;
+}
